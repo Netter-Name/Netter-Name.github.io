@@ -1,0 +1,128 @@
+@font-face {
+    font-family: "Blox (BRK)";
+    src: url('fonts/Blox2.ttf')
+}
+
+@font-face {
+    font-family: "DisposableDroid BB";
+    src: url('fonts/DisposableDroidBB.ttf');
+}
+
+
+
+body {
+    background-color: rgb(25, 40, 40)/*rgb(19, 26, 26)*/;
+    background-image: url("rauschen.gif");
+    font-family: "DisposableDroid BB", sans-serif;
+    font-size: 25px;
+    color: orange;
+    padding-left: 2cm;
+    padding-right: 2cm;
+
+}
+
+body main {
+    background-color: rgb(25, 40, 40);
+    border-style: groove;
+    border-color:rgb(25, 40, 40);
+    border-width: 0px;
+    padding: 3px;
+    border-radius: 10px;
+    max-width: 830px;
+    margin-bottom: 25px;
+
+    
+}
+
+.content {
+    margin-right: 20px;
+    margin-left: 20px;
+    max-width: 830px;
+    min-width: fit-content;
+    margin-bottom: 60px;
+}
+
+.footer {
+    font-family: "DisposableDroid BB", sans-serif;
+    font-size: 14px;
+    color: orange;
+    margin-left: 15px;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+h1 {
+    color: orange;
+    font-family: "Blox (BRK)", sans-serif;
+    font-size: 100px;
+    font-weight: normal;
+}
+
+h2 {
+    color: orange;
+    font-family: "DisposableDroid BB", sans-serif;
+    font-size: 45px;
+}
+
+h3 {
+    color: orange;
+    font-family: "DisposableDroid BB", sans-serif;
+    font-size: 38px;
+}
+
+p img {
+    border-width: 0px;
+    border-radius: 10px;
+}
+
+nav ul {
+    background-color: rgb(25, 40, 40);
+    border-style: groove;
+    border-color:rgb(25, 40, 40);
+    border-width: 0px;
+    padding: 3px;
+    border-radius: 10px;
+    max-width: max-content;
+}
+
+nav ul li {
+    font-family: "DisposableDroid BB", sans-serif;
+    color: white;
+    list-style-type: none;
+    display: inline;
+    margin-right: 15px;
+    margin-left: 15px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    text-decoration-color: orange;
+    font-family: "DisposableDroid BB", sans-serif;
+    font-size: 16px;
+
+}
+nav ul li a:link {
+    color: orange;
+  }
+  nav ul li a:hover {
+    color: orange;
+  }
+  nav ul li a:visited {
+    color: rgb(194, 133, 76);
+}
+
+a {
+    text-decoration-color: orange;
+  }
+a:link {
+    color: orange;
+  }
+ a:hover {
+    color: orange;
+  }
+a:visited {
+    color: rgb(194, 133, 76);
+}
